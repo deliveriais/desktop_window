@@ -130,7 +130,7 @@ namespace DesktopWindowMethodCall
   
     void MethodCall::focus()
     {
-        HWND hwnd=FindWindowA(NULL, "Deliver");
+        HWND hwnd=FindWindowA(NULL, "We");
            SetForegroundWindow(hwnd);
            ShowWindow(hwnd, 3);
 
